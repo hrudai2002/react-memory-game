@@ -22,3 +22,15 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
+@media screen and (max-width: 860px) {
+  .App {
+     max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .App {
+     max-width: 400px;
+  }
+}
